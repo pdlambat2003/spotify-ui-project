@@ -1,0 +1,75 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Chat gpt */
+
+/* Define scrollbar styles */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555; /* Color of the scrollbar handle */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; /* Darker color when hovered */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #333; /* Color of the scrollbar track */
+  }
+  
+  /* Track when scrollbar is visible */
+  ::-webkit-scrollbar-track:vertical {
+    border-left: 1px solid #555; /* Show a border on the left side of the track */
+  }
+  
+  /* Corner */
+  ::-webkit-scrollbar-corner {
+    background: #111; /* Color of the scrollbar corner */
+  }
+  
